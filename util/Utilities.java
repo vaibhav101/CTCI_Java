@@ -6,6 +6,7 @@ public class Utilities {
 	// Iterate over a map and print it out like
 	// a python dictionary for debugging
 	// @param Map<Object, Object> inputMap
+	// @param String mapName a the name of the map
 	public static <T, G> void printMap(Map<T, G> inputMap, String mapName) {
 		if (!mapName.isEmpty()) {
 			System.out.print(mapName + " = ");
